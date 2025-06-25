@@ -8,4 +8,8 @@ class JobListingView(generics.ListAPIView):
     serializer_class = JobListingSerializer
     filter_backends = [filters.SearchFilter, filters.OrderingFilter]
     search_fields = ['title','location','description']
-# Create your views here.
+
+
+
+
+

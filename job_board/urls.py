@@ -5,5 +5,6 @@ from jobs.views import JobListingView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('job/', JobListingView.as_view(), name='jobs')
+    path('job/', JobListingView.as_view(), name='jobs'),
+
 ]
